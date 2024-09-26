@@ -1,0 +1,114 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+
+.logo1 {
+  height: 150px;
+}
+
+.nav-link {
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ff7e7e;
+}
+
+.nav-item {
+  font-size: 35px;
+}
+
+body {
+  padding-top: 175px;
+  background-color: black;
+}
+
+.navbar {
+  background-color: hsl(0, 0%, 100%);
+}
+.BGCB {
+  background-color: black;
+}
+.BGCW {
+  background-color: rgb(255, 255, 255);
+}
+
+.logo2 {
+  height: 300px;
+}
+.info {
+  font-size: 30px;
+}
+
+.nav-link.active {
+  color: #ff7e7e !important;
+}
+
+#Creators img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.ctr {
+  font-size: 70px;
+}
+
+.media-buttons {
+  display: flex;
+  align-items: center;
+}
+.media-buttons .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  font-size: 30px;
+  margin: 0 8px;
+  text-decoration: none;
+}
+
+.link:hover {
+  transform: scale(1.1);
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+  aspect-ratio: 16 / 9;
+}
+
+@media (max-width: 768px) {
+  iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+}
+
+.hi {
+  height: 15px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.2rem 1rem;
+    height: auto;
+  }
+
+  .logo1 {
+    height: 70px;
+  }
+
+  .nav-item {
+    font-size: 18px;
+  }
+
+  .navbar-toggler {
+    padding: 0.25rem 0.5rem;
+  }
+
+  body {
+    padding-top: 90px;
+  }
+}
