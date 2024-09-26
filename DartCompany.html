@@ -1,0 +1,388 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="images/Logo(3).ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <script defer src="js/bootstrap.js"></script>
+    <title>Dart Company - 틱톡 에이전시</title>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+
+    .logo1 {
+      height: 150px;
+    }
+
+    .nav-link {
+      transition: color 0.3s;
+    }
+
+    .nav-link:hover {
+      color: #ff7e7e;
+    }
+
+    .nav-item {
+      font-size: 30px;
+    }
+
+    body {
+      padding-top: 180px;
+      background-color: black;
+    }
+
+    .navbar {
+      background-color: hsl(0, 0%, 100%);
+    }
+    .BGCB {
+      background-color: black;
+    }
+    .BGCW {
+      background-color: rgb(255, 255, 255);
+    }
+
+    .logo2 {
+      height: 300px;
+    }
+    .info {
+      font-size: 30px;
+    }
+
+    .nav-link.active {
+      color: #ff7e7e !important;
+    }
+
+    #Creators img {
+      height: 500px;
+      object-fit: cover;
+    }
+
+    .ctr {
+      font-size: 70px;
+    }
+
+    .media-buttons {
+      display: flex;
+      align-items: center;
+    }
+    .media-buttons .link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #000000;
+      font-size: 30px;
+      margin: 0 8px;
+      text-decoration: none;
+    }
+
+    .link:hover {
+      transform: scale(1.1);
+    }
+  </style>
+
+  <body data-bs-spy="scroll" data-bs-target="#nav-scroll">
+    <!-- 상단스크롤섹션 -->
+    <div class="d-flex justify-content-end fixed-bottom me-3 mb-3 text-light">
+      <a href="#" class="btn btn-outline-dark btn-xs">^</a>
+    </div>
+
+    <!-- 네브바 -->
+    <nav id="nav-scroll" class="navbar navbar-expand-md navbar fixed-top">
+      <div class="container-fluid ms-5">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="images/Logo.png" class="logo1" alt="로고" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav d-flex justify-content-around w-100">
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Creators">Creators</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Support">Support</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Business">Business</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Apply">Apply</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 메인화면 동영상 섹션 -->
+    <section>
+      <div class="d-flex justify-content-center">
+        <iframe
+          width="1200"
+          height="600"
+          src="https://www.youtube.com/embed/PkYrc9X9H04?si=EdvgwCVp2R-LsZMr"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- 어바웃섹션 -->
+    <section>
+      <div id="About" class="BGCW text-light text-center">
+        <img src="images/Logo.png" class="logo2 mt-5 mb-5" />
+        <h1 class="text-dark text-size mt-5">
+          <strong>Dart Company</strong> Entertainment
+        </h1>
+        <p class="info text-secondary pb-5">
+          <b>미래 가치</b>를 창출하는 끊임없는 <b>도전</b>과 <b>열정</b>으로
+          <br />
+          <b>혁신</b>을 이끌어가는 기업이 되겠습니다.
+        </p>
+        <div class="BGCB d-flex justify-content-center">
+          <iframe
+            width="1200"
+            height="600"
+            src="https://www.youtube.com/embed/1XZtyrgUQhg?si=mXcUBelZDqreeYMP"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- 크리에이터 섹션 -->
+    <section id="Creators" class="container py-5">
+      <div class="text-capitalize py-5">
+        <p class="ctr text-light">Creators</p>
+        <p class="inf text-light">
+          라이브 전문기업 글로벌 TOP 에이전시 'DT' 와 <br />
+          함께라면 글로벌 라이브 크리에이터로 성장할수 있습니다.
+        </p>
+        <h5 class="text-secondary fw-normal py-2 fst-italic">
+          Continuously improving my skills and knowledge in the field.
+        </h5>
+      </div>
+
+      <div class="row pb-5">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img src="images/Profile1.jpg" alt="" class="card-img-top" />
+            <div class="card-body">
+              <div class="media-buttons">
+                <a
+                  href="https://www.tiktok.com/@hyungjin_99"
+                  target="_blank"
+                  class="link"
+                >
+                  <i class="bx bxl-tiktok"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/hyungjin._"
+                  target="_blank"
+                  class="link"
+                >
+                  <i class="bx bxl-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img src="images/Profile2.jpg" alt="" class="card-img-top" />
+            <div class="card-body">
+              <div class="media-buttons">
+                <a
+                  href="https://www.tiktok.com/@jaegeun2_da"
+                  target="_blank"
+                  class="link"
+                >
+                  <i class="bx bxl-tiktok"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/jaegeun2_da"
+                  target="_blank"
+                  class="link"
+                >
+                  <i class="bx bxl-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img src="images/Profile3.jpg" alt="" class="card-img-top" />
+            <div class="card-body">
+              <div class="media-buttons">
+                <a
+                  href="https://www.tiktok.com/search?lang=ko-KR&q=%EC%B2%A0%EA%B5%AC&t=1727319174667"
+                  target="_blank"
+                  class="link"
+                >
+                  <i class="bx bxl-tiktok"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/lyj_1019/"
+                  target="_blank"
+                  class="link"
+                >
+                  <i class="bx bxl-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 서포트 섹션 -->
+
+    <section id="Support" class="container py-5">
+      <div class="text-capitalize py-5">
+        <p class="ctr text-light">Creators</p>
+        <p class="inf text-light">
+          라이브 전문기업 글로벌 TOP 에이전시 'DT' 와 <br />
+          함께라면 글로벌 라이브 크리에이터로 성장할수 있습니다.
+        </p>
+        <h5 class="text-secondary fw-normal py-2 fst-italic">
+          Fusce consequat non ligula sit amet tristique
+        </h5>
+      </div>
+
+      <div class="row d-flex justify-content-between mx-0">
+        <div
+          class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4"
+          style="width: 25rem"
+        >
+          <i
+            class="text-white bg-primary d-flex align-items-center justify-content-center fs-2"
+          ></i>
+          <h3 class="mt-4 h4">지원목록</h3>
+          <p class="text-center">
+            누구든지 체포 또는 구속의 이유와 변호인의 조력을 받을 권리가 있음을
+            고지받지 아니하고는 체포 또는 구속을 당하지 아니한다. 체포 또는
+            구속을 당한 자의 가족등 법률이 정하는 자에게는 그 이유와 일시·장소가
+            지체없이 통지되어야 한다.
+          </p>
+        </div>
+        <div
+          class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4"
+          style="width: 25rem"
+        >
+          <i
+            class="text-white bg-primary d-flex align-items-center justify-content-center fs-2"
+          ></i>
+          <h3 class="mt-4 h4">지원목록</h3>
+          <p class="text-center">
+            누구든지 체포 또는 구속의 이유와 변호인의 조력을 받을 권리가 있음을
+            고지받지 아니하고는 체포 또는 구속을 당하지 아니한다. 체포 또는
+            구속을 당한 자의 가족등 법률이 정하는 자에게는 그 이유와 일시·장소가
+            지체없이 통지되어야 한다.
+          </p>
+        </div>
+        <div
+          class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4"
+          style="width: 25rem"
+        >
+          <i
+            class="text-white bg-primary d-flex align-items-center justify-content-center fs-2"
+          ></i>
+          <h3 class="mt-4 h4">지원목록</h3>
+          <p class="text-center">
+            누구든지 체포 또는 구속의 이유와 변호인의 조력을 받을 권리가 있음을
+            고지받지 아니하고는 체포 또는 구속을 당하지 아니한다. 체포 또는
+            구속을 당한 자의 가족등 법률이 정하는 자에게는 그 이유와 일시·장소가
+            지체없이 통지되어야 한다.
+          </p>
+        </div>
+        <div
+          class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4"
+          style="width: 25rem"
+        >
+          <i
+            class="text-white bg-primary d-flex align-items-center justify-content-center fs-2"
+          ></i>
+          <h3 class="mt-4 h4">지원목록</h3>
+          <p class="text-center">
+            누구든지 체포 또는 구속의 이유와 변호인의 조력을 받을 권리가 있음을
+            고지받지 아니하고는 체포 또는 구속을 당하지 아니한다. 체포 또는
+            구속을 당한 자의 가족등 법률이 정하는 자에게는 그 이유와 일시·장소가
+            지체없이 통지되어야 한다.
+          </p>
+        </div>
+        <div
+          class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4"
+          style="width: 25rem"
+        >
+          <i
+            class="text-white bg-primary d-flex align-items-center justify-content-center fs-2"
+          ></i>
+          <h3 class="mt-4 h4">지원목록</h3>
+          <p class="text-center">
+            국가는 모성의 보호를 위하여 노력하여야 한다. 국회는 국민의
+            보통·평등·직접·비밀선거에 의하여 선출된 국회의원으로 구성한다.
+            헌법개정안이 제2항의 찬성을 얻은 때에는 헌법개정은 확정되며,
+            대통령은 즉시 이를 공포하여야 한다.
+          </p>
+        </div>
+        <div
+          class="card mt-5 d-flex flex-column align-items-center text-center bg-white p-4"
+          style="width: 25rem"
+        >
+          <i
+            class="text-white bg-primary d-flex align-items-center justify-content-center fs-2 rounded-circle"
+          ></i>
+          <h3 class="mt-4 h4">지원목록</h3>
+          <p class="text-center">
+            대법원장과 대법관이 아닌 법관의 임기는 10년으로 하며, 법률이 정하는
+            바에 의하여 연임할 수 있다. 중앙선거관리위원회는 대통령이 임명하는
+            3인, 국회에서 선출하는 3인과 대법원장이 지명하는 3인의 위원으로
+            구성한다. 위원장은 위원중에서 호선한다.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 비즈니스 섹션 -->
+    <section id="Business" class="container py-5">
+      <div class="text-capitalize py-5">
+        <p class="ctr text-light">Business</p>
+        <p class="inf text-light">
+          협업 및 비즈니스 제안 어쩌구 저쩌구 들어갈공간 
+        </p>
+        <h5 class="text-secondary fw-normal py-2 fst-italic">
+          Fusce consequat non ligula sit amet tristique
+        </h5>
+    </section>
+  </body>
+</html>
