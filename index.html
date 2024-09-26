@@ -23,7 +23,7 @@
     @import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
 
     .logo1 {
-      height: 45px;
+      height: 150px;
     }
 
     .nav-link {
@@ -35,11 +35,11 @@
     }
 
     .nav-item {
-      font-size: 20px;
+      font-size: 35px;
     }
 
     body {
-      padding-top: 75px;
+      padding-top: 175px;
       background-color: black;
     }
 
@@ -109,6 +109,29 @@
     .hi {
       height: 15px;
     }
+
+    @media (max-width: 768px) {
+      .navbar {
+        padding: 0.2rem 1rem;
+        height: auto;
+      }
+
+      .logo1 {
+        height: 70px;
+      }
+
+      .nav-item {
+        font-size: 18px;
+      }
+
+      .navbar-toggler {
+        padding: 0.25rem 0.5rem;
+      }
+
+      body {
+        padding-top: 90px;
+      }
+    }
   </style>
 
   <body data-bs-spy="scroll" data-bs-target="#nav-scroll">
@@ -134,7 +157,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav d-flex justify-content-end w-100">
+          <ul class="navbar-nav d-flex justify-content-around w-100">
             <li class="nav-item">
               <a class="nav-link" href="#About">About</a>
             </li>
@@ -411,7 +434,6 @@
         <!-- 오른쪽 폼 부분 -->
         <div class="col-md-6 text-white">
           <form>
-            <!-- 회사명 -->
             <div class="mb-3">
               <label for="companyName" class="form-label">회사명</label>
               <input
@@ -548,8 +570,6 @@
                     required
                   />
                 </div>
-
-                <!-- 개인정보 수집 동의 -->
                 <div class="form-check mb-3">
                   <input
                     class="form-check-input"
@@ -580,8 +600,8 @@
 
     <footer class="bg-white py-4 mt-4">
       <div class="container text-dark text-center">
-        <p class="display-5 mb-3">Aurora Tour</p>
-        <small>&copy; Copyright by me. All rights reserved.</small>
+        <p class="display-5 mb-3">DartCompany</p>
+        <small>&copy; Copyright by wjdtjddns98. All rights reserved.</small>
       </div>
     </footer>
   </body>
